@@ -1,0 +1,60 @@
+MongoDB Student Database with Regex Operations
+1. Introduction
+MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. Regular expressions (regex) in MongoDB are essential for performing flexible and pattern-based searches on string fields. In this guide, we will create a student database and perform various regex-based operations.
+
+2. Setting Up the Database
+Step 1: Start MongoDB Shell
+To begin working with MongoDB, start the shell by using the following command:
+mongosh
+Step 2: Create a New Database
+Create a new database named studentDB:
+use studentDB
+This command switches to studentDB or creates it if it doesn’t exist.
+Step 3: Create a Collection and Insert Data
+We will create a collection named students and insert multiple records:
+db.students.insertMany([
+    { student_id: 1, first_name: "John", last_name: "Doe", email: "john.doe@gmail.com", phone: "9812345678", grade: "A" },
+    { student_id: 2, first_name: "Alice", last_name: "Smith", email: "alice_smith@outlook.com", phone: "9876543210", grade: "B" },
+    { student_id: 3, first_name: "Robert", last_name: "Brown", email: "robert.brown@yahoo.com", phone: "9811122233", grade: "C" },
+    { student_id: 4, first_name: "Emily", last_name: "Davis", email: "emilydavis@hotmail.com", phone: "9823456789", grade: "A" },
+    { student_id: 5, first_name: "Michael", last_name: "Clark", email: "michael_clark@gmail.com", phone: "9845671234", grade: "B" },
+    { student_id: 6, first_name: "Rachel", last_name: "Adams", email: "rachel.adams@protonmail.com", phone: "9898765432", grade: "A" }
+])
+This command inserts six student records into the students collection.
+
+3. Regular Expression (Regex) Operations
+3.1 Find All Students
+db.students.find()
+Displays all student records in the database.
+3.2 Find Students Whose First Name Starts with "A"
+db.students.find({ first_name: { $regex: "^A" } })
+Explanation: Uses ^ to match names that start with the letter "A".
+3.3 Find Students with Gmail Addresses (Case-Insensitive)
+db.students.find({ email: { $regex: "gmail\\.com$", $options: "i" } })
+Explanation:
+    • Uses $ to match strings ending with "gmail.com". 
+    • Uses \\. to escape the dot character. 
+    • $options: "i" for case-insensitive matching. 
+3.4 Find Students Whose Last Name Contains "Smith" (Case-Insensitive)
+db.students.find({ last_name: { $regex: "smith", $options: "i" } })
+3.5 Find Students Whose Phone Number Starts with "98"
+db.students.find({ phone: { $regex: "^98" } })
+3.6 Find Students with Grades "A" or "B"
+db.students.find({ grade: { $regex: "^(A|B)$" } })
+Explanation: Uses | to match either grade "A" or grade "B".
+3.7 Find Students with Underscores in Their Email
+db.students.find({ email: { $regex: "_" } })
+3.8 Update Phone Numbers to International Format
+db.students.updateMany(
+    { phone: { $regex: "^98" } },
+    [
+        { $set: { phone: { $concat: ["+971 ", "$phone"] } } }
+    ]
+)
+Explanation: Adds the country code "+971" to phone numbers starting with "98".
+3.9 Find Students Using International Phone Numbers
+db.students.find({ phone: { $regex: "^\\+971" } })
+
+4. Summary
+Created a student database and performed several regex-based search and update operations. Regular expressions in MongoDB are highly flexible and efficient for pattern matching. 
+

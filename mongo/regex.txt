@@ -1,0 +1,147 @@
+> use studentDB
+switched to db studentDB
+
+> db.students.insertMany([
+...     { student_id: 1, first_name: "John", last_name: "Doe", email: "john.doe@gmail.com", phone: "9812345678", grade: "A" },
+...     { student_id: 2, first_name: "Alice", last_name: "Smith", email: "alice_smith@outlook.com", phone: "9876543210", grade: "B" },
+...     { student_id: 3, first_name: "Robert", last_name: "Brown", email: "robert.brown@yahoo.com", phone: "9811122233", grade: "C" },
+...     { student_id: 4, first_name: "Emily", last_name: "Davis", email: "emilydavis@hotmail.com", phone: "9823456789", grade: "A" },
+...     { student_id: 5, first_name: "Michael", last_name: "Clark", email: "michael_clark@gmail.com", phone: "9845671234", grade: "B" },
+...     { student_id: 6, first_name: "Rachel", last_name: "Adams", email: "rachel.adams@protonmail.com", phone: "9898765432", grade: "A" }
+... ])
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("67d1783c7f78a34cca6a572e"),
+		ObjectId("67d1783c7f78a34cca6a572f"),
+		ObjectId("67d1783c7f78a34cca6a5730"),
+		ObjectId("67d1783c7f78a34cca6a5731"),
+		ObjectId("67d1783c7f78a34cca6a5732"),
+		ObjectId("67d1783c7f78a34cca6a5733")
+	]
+}
+
+> db.students.find()
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572e"), "student_id" : 1, "first_name" : "John", "last_name" : "Doe", "email" : "john.doe@gmail.com", "phone" : "9812345678", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572f"), "student_id" : 2, "first_name" : "Alice", "last_name" : "Smith", "email" : "alice_smith@outlook.com", "phone" : "9876543210", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5730"), "student_id" : 3, "first_name" : "Robert", "last_name" : "Brown", "email" : "robert.brown@yahoo.com", "phone" : "9811122233", "grade" : "C" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5731"), "student_id" : 4, "first_name" : "Emily", "last_name" : "Davis", "email" : "emilydavis@hotmail.com", "phone" : "9823456789", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5732"), "student_id" : 5, "first_name" : "Michael", "last_name" : "Clark", "email" : "michael_clark@gmail.com", "phone" : "9845671234", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5733"), "student_id" : 6, "first_name" : "Rachel", "last_name" : "Adams", "email" : "rachel.adams@protonmail.com", "phone" : "9898765432", "grade" : "A" }
+
+Find Students Whose First Name Starts with "A"
+> db.students.find({ first_name: { $regex: "^A" } })
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572f"), "student_id" : 2, "first_name" : "Alice", "last_name" : "Smith", "email" : "alice_smith@outlook.com", "phone" : "9876543210", "grade" : "B" }
+
+Find Students Whose Email Domain is "gmail.com"
+> db.students.find({ email: { $regex: "gmail\\.com$", $options: "i" } })
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572e"), "student_id" : 1, "first_name" : "John", "last_name" : "Doe", "email" : "john.doe@gmail.com", "phone" : "9812345678", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5732"), "student_id" : 5, "first_name" : "Michael", "last_name" : "Clark", "email" : "michael_clark@gmail.com", "phone" : "9845671234", "grade" : "B" }
+
+Case-Insensitive Search for Last Name Containing "smith"
+> db.students.find({ last_name: { $regex: "smith", $options: "i" } })
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572f"), "student_id" : 2, "first_name" : "Alice", "last_name" : "Smith", "email" : "alice_smith@outlook.com", "phone" : "9876543210", "grade" : "B" }
+
+Find Students Whose Phone Number Starts with "98"
+> db.students.find({ phone: { $regex: "^98" } })
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572e"), "student_id" : 1, "first_name" : "John", "last_name" : "Doe", "email" : "john.doe@gmail.com", "phone" : "9812345678", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572f"), "student_id" : 2, "first_name" : "Alice", "last_name" : "Smith", "email" : "alice_smith@outlook.com", "phone" : "9876543210", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5730"), "student_id" : 3, "first_name" : "Robert", "last_name" : "Brown", "email" : "robert.brown@yahoo.com", "phone" : "9811122233", "grade" : "C" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5731"), "student_id" : 4, "first_name" : "Emily", "last_name" : "Davis", "email" : "emilydavis@hotmail.com", "phone" : "9823456789", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5732"), "student_id" : 5, "first_name" : "Michael", "last_name" : "Clark", "email" : "michael_clark@gmail.com", "phone" : "9845671234", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5733"), "student_id" : 6, "first_name" : "Rachel", "last_name" : "Adams", "email" : "rachel.adams@protonmail.com", "phone" : "9898765432", "grade" : "A" }
+
+Find Students Whose Grade is Either "A" or "B"
+> db.students.find({ grade: { $regex: "^(A|B)$" } })
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572e"), "student_id" : 1, "first_name" : "John", "last_name" : "Doe", "email" : "john.doe@gmail.com", "phone" : "9812345678", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572f"), "student_id" : 2, "first_name" : "Alice", "last_name" : "Smith", "email" : "alice_smith@outlook.com", "phone" : "9876543210", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5731"), "student_id" : 4, "first_name" : "Emily", "last_name" : "Davis", "email" : "emilydavis@hotmail.com", "phone" : "9823456789", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5732"), "student_id" : 5, "first_name" : "Michael", "last_name" : "Clark", "email" : "michael_clark@gmail.com", "phone" : "9845671234", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5733"), "student_id" : 6, "first_name" : "Rachel", "last_name" : "Adams", "email" : "rachel.adams@protonmail.com", "phone" : "9898765432", "grade" : "A" }
+
+
+Find Students with an Underscore in Their Email
+> db.students.find({ email: { $regex: "_" } })
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572f"), "student_id" : 2, "first_name" : "Alice", "last_name" : "Smith", "email" : "alice_smith@outlook.com", "phone" : "9876543210", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5732"), "student_id" : 5, "first_name" : "Michael", "last_name" : "Clark", "email" : "michael_clark@gmail.com", "phone" : "9845671234", "grade" : "B" }
+
+
+Update Phone Numbers to International Format (+971)
+> db.students.updateMany(
+...     { phone: { $regex: "^98" } },
+...     [
+...         { $set: { phone: { $concat: ["+971 ", "$phone"] } } }
+...     ]
+... )
+{ "acknowledged" : true, "matchedCount" : 6, "modifiedCount" : 6 }
+
+
+Find Students Using International Phone Numbers
+> db.students.find({ phone: { $regex: "^\\+971" } })
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572e"), "student_id" : 1, "first_name" : "John", "last_name" : "Doe", "email" : "john.doe@gmail.com", "phone" : "+971 9812345678", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a572f"), "student_id" : 2, "first_name" : "Alice", "last_name" : "Smith", "email" : "alice_smith@outlook.com", "phone" : "+971 9876543210", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5730"), "student_id" : 3, "first_name" : "Robert", "last_name" : "Brown", "email" : "robert.brown@yahoo.com", "phone" : "+971 9811122233", "grade" : "C" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5731"), "student_id" : 4, "first_name" : "Emily", "last_name" : "Davis", "email" : "emilydavis@hotmail.com", "phone" : "+971 9823456789", "grade" : "A" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5732"), "student_id" : 5, "first_name" : "Michael", "last_name" : "Clark", "email" : "michael_clark@gmail.com", "phone" : "+971 9845671234", "grade" : "B" }
+{ "_id" : ObjectId("67d1783c7f78a34cca6a5733"), "student_id" : 6, "first_name" : "Rachel", "last_name" : "Adams", "email" : "rachel.adams@protonmail.com", "phone" : "+971 9898765432", "grade" : "A" }
+
+
+
+> db.students.find().pretty()
+{
+	"_id" : ObjectId("67d1783c7f78a34cca6a572e"),
+	"student_id" : 1,
+	"first_name" : "John",
+	"last_name" : "Doe",
+	"email" : "john.doe@gmail.com",
+	"phone" : "+971 9812345678",
+	"grade" : "A"
+}
+{
+	"_id" : ObjectId("67d1783c7f78a34cca6a572f"),
+	"student_id" : 2,
+	"first_name" : "Alice",
+	"last_name" : "Smith",
+	"email" : "alice_smith@outlook.com",
+	"phone" : "+971 9876543210",
+	"grade" : "B"
+}
+{
+	"_id" : ObjectId("67d1783c7f78a34cca6a5730"),
+	"student_id" : 3,
+	"first_name" : "Robert",
+	"last_name" : "Brown",
+	"email" : "robert.brown@yahoo.com",
+	"phone" : "+971 9811122233",
+	"grade" : "C"
+}
+{
+	"_id" : ObjectId("67d1783c7f78a34cca6a5731"),
+	"student_id" : 4,
+	"first_name" : "Emily",
+	"last_name" : "Davis",
+	"email" : "emilydavis@hotmail.com",
+	"phone" : "+971 9823456789",
+	"grade" : "A"
+}
+{
+	"_id" : ObjectId("67d1783c7f78a34cca6a5732"),
+	"student_id" : 5,
+	"first_name" : "Michael",
+	"last_name" : "Clark",
+	"email" : "michael_clark@gmail.com",
+	"phone" : "+971 9845671234",
+	"grade" : "B"
+}
+{
+	"_id" : ObjectId("67d1783c7f78a34cca6a5733"),
+	"student_id" : 6,
+	"first_name" : "Rachel",
+	"last_name" : "Adams",
+	"email" : "rachel.adams@protonmail.com",
+	"phone" : "+971 9898765432",
+	"grade" : "A"
+}
+
+
+>exit 
