@@ -1,0 +1,237 @@
+> use studyDB
+switched to db studyDB
+
+> db.students.insertOne({ student_id: 101, first_name: "john", last_name: "doe" })
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("67d165c85b76b8a685684789")
+}
+
+> db.students.insertMany([
+...   { student_id: 102, first_name: "emma", last_name: "stone" },
+...   { student_id: 103, first_name: "liam", last_name: "smith" },
+...   { student_id: 104, first_name: "olivia", last_name: "jones" }
+... ])
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("67d165e75b76b8a68568478a"),
+		ObjectId("67d165e75b76b8a68568478b"),
+		ObjectId("67d165e75b76b8a68568478c")
+	]
+}
+
+> show collections
+students
+
+> db.students.find()
+{ "_id" : ObjectId("67d165c85b76b8a685684789"), "student_id" : 101, "first_name" : "john", "last_name" : "doe" }
+{ "_id" : ObjectId("67d165e75b76b8a68568478a"), "student_id" : 102, "first_name" : "emma", "last_name" : "stone" }
+{ "_id" : ObjectId("67d165e75b76b8a68568478b"), "student_id" : 103, "first_name" : "liam", "last_name" : "smith" }
+{ "_id" : ObjectId("67d165e75b76b8a68568478c"), "student_id" : 104, "first_name" : "olivia", "last_name" : "jones" }
+
+> db.students.find({ student_id: 102 })
+{ "_id" : ObjectId("67d165e75b76b8a68568478a"), "student_id" : 102, "first_name" : "emma", "last_name" : "stone" }
+
+> db.students.find({ first_name: "liam" })
+{ "_id" : ObjectId("67d165e75b76b8a68568478b"), "student_id" : 103, "first_name" : "liam", "last_name" : "smith" }
+
+> db.students.find({ student_id: { $gte: 102, $lte: 104 } })
+{ "_id" : ObjectId("67d165e75b76b8a68568478a"), "student_id" : 102, "first_name" : "emma", "last_name" : "stone" }
+{ "_id" : ObjectId("67d165e75b76b8a68568478b"), "student_id" : 103, "first_name" : "liam", "last_name" : "smith" }
+{ "_id" : ObjectId("67d165e75b76b8a68568478c"), "student_id" : 104, "first_name" : "olivia", "last_name" : "jones" }
+
+> db.students.createIndex({ student_id: 1 }, { unique: true })
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 1,
+	"numIndexesAfter" : 2,
+	"ok" : 1
+}
+
+> db.students.createIndex({ first_name: 1 })
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 2,
+	"numIndexesAfter" : 3,
+	"ok" : 1
+}
+
+> db.students.createIndex({ first_name: 1, last_name: 1 })
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 3,
+	"numIndexesAfter" : 4,
+	"ok" : 1
+}
+
+> db.students.updateOne({ student_id: 103 }, { $set: { last_name: "brown" } })
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+> db.students.updateOne({ first_name: "olivia" }, { $set: { first_name: "sophia" } })
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+> db.students.updateOne({ student_id: 101 }, { $set: { grade: { marks: 85, subject: "math" } } })
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+> db.students.updateMany({}, [
+...   {
+...     $set: {
+...       grade_percentage: { $round: [{ $toDouble: "$grade.marks" }, 2] }
+...     }
+...   }
+... ])
+{ "acknowledged" : true, "matchedCount" : 4, "modifiedCount" : 4 }
+
+> db.students.find({ student_id: 101 }).forEach(doc => {
+...   print("Creation Date:", doc._id.getTimestamp());
+... });
+Creation Date: Wed Mar 12 2025 16:15:28 GMT+0530 (IST)
+
+> ObjectId("67d165c85b76b8a685684789").getTimestamp()
+ISODate("2025-03-12T10:45:28Z")
+
+> db.students.deleteOne({ student_id: 104 })
+{ "acknowledged" : true, "deletedCount" : 1 }
+
+> show collections
+students
+
+> db.students.find()
+{ "_id" : ObjectId("67d165c85b76b8a685684789"), "student_id" : 101, "first_name" : "john", "last_name" : "doe", "grade" : { "marks" : 85, "subject" : "math" }, "grade_percentage" : 85 }
+{ "_id" : ObjectId("67d165e75b76b8a68568478a"), "student_id" : 102, "first_name" : "emma", "last_name" : "stone", "grade_percentage" : null }
+{ "_id" : ObjectId("67d165e75b76b8a68568478b"), "student_id" : 103, "first_name" : "liam", "last_name" : "brown", "grade_percentage" : null }
+
+> exit
+
+
+******************************************
+
+
+exisisting db modification
+
+
+
+> db.products.insertMany([
+...   { product_id: 1, name: "Laptop", price: { amount: "1,200", currency: "USD" } },
+...   { product_id: 2, name: "Smartphone", price: { amount: "799", currency: "USD" } },
+...   { product_id: 3, name: "Tablet", price: { amount: "499.99", currency: "USD" } },
+...   { product_id: 4, name: "Smartwatch", price: { amount: "249", currency: "USD" } }
+... ])
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("67d16af25b76b8a68568478d"),
+		ObjectId("67d16af25b76b8a68568478e"),
+		ObjectId("67d16af25b76b8a68568478f"),
+		ObjectId("67d16af25b76b8a685684790")
+	]
+}
+
+> db.products.find().pretty()
+{
+	"_id" : ObjectId("67d16af25b76b8a68568478d"),
+	"product_id" : 1,
+	"name" : "Laptop",
+	"price" : {
+		"amount" : "1,200",
+		"currency" : "USD"
+	}
+}
+{
+	"_id" : ObjectId("67d16af25b76b8a68568478e"),
+	"product_id" : 2,
+	"name" : "Smartphone",
+	"price" : {
+		"amount" : "799",
+		"currency" : "USD"
+	}
+}
+{
+	"_id" : ObjectId("67d16af25b76b8a68568478f"),
+	"product_id" : 3,
+	"name" : "Tablet",
+	"price" : {
+		"amount" : "499.99",
+		"currency" : "USD"
+	}
+}
+{
+	"_id" : ObjectId("67d16af25b76b8a685684790"),
+	"product_id" : 4,
+	"name" : "Smartwatch",
+	"price" : {
+		"amount" : "249",
+		"currency" : "USD"
+	}
+}
+
+
+> db.products.updateMany(
+...   {},
+...   [
+...     {
+...       $set: {
+...         price_float: {
+...           $round: [
+...             { $toDouble: { $replaceAll: { input: "$price.amount", find: ",", replacement: "" } } },
+...             2
+...           ]
+...         }
+...       }
+...     }
+...   ]
+... )
+{ "acknowledged" : true, "matchedCount" : 4, "modifiedCount" : 4 }
+
+
+> db.products.find().pretty()
+{
+	"_id" : ObjectId("67d16af25b76b8a68568478d"),
+	"product_id" : 1,
+	"name" : "Laptop",
+	"price" : {
+		"amount" : "1,200",
+		"currency" : "USD"
+	},
+	"price_float" : 1200
+}
+{
+	"_id" : ObjectId("67d16af25b76b8a68568478e"),
+	"product_id" : 2,
+	"name" : "Smartphone",
+	"price" : {
+		"amount" : "799",
+		"currency" : "USD"
+	},
+	"price_float" : 799
+}
+{
+	"_id" : ObjectId("67d16af25b76b8a68568478f"),
+	"product_id" : 3,
+	"name" : "Tablet",
+	"price" : {
+		"amount" : "499.99",
+		"currency" : "USD"
+	},
+	"price_float" : 499.99
+}
+{
+	"_id" : ObjectId("67d16af25b76b8a685684790"),
+	"product_id" : 4,
+	"name" : "Smartwatch",
+	"price" : {
+		"amount" : "249",
+		"currency" : "USD"
+	},
+	"price_float" : 249
+}
+
+
+> db.products.find({ product_id: 1 }).forEach(doc => {
+...   print("Creation Date:", doc._id.getTimestamp());
+... });
+Creation Date: Wed Mar 12 2025 16:37:30 GMT+0530 (IST)
+
+> 
+
