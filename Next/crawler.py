@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 
-class NextProductCrawler:
+class Crawler:
     def __init__(self):
         self.client = pymongo.MongoClient()
         self.db = self.client["Next_DB"]
@@ -43,5 +43,5 @@ class NextProductCrawler:
             logging.info(f"Inserted {len(all_product_urls)} unique product URLs into the database.")
 
 if __name__ == "__main__":
-    crawler = NextProductCrawler()
+    crawler = Crawler()
     crawler.crawl()
