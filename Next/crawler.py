@@ -27,19 +27,19 @@ class NextProductCrawler:
             return []
 
     def crawl(self):
-        all_product_urls = set()  # Use a set to automatically remove duplicates
+        all_product_urls = set() 
         for base_url in self.urls:
             logging.info(f"Processing Category URL: {base_url}")
-            for page in range(1, 21):
+            for page in range(1, 41):
                 paginated_url = f"{base_url[:-1]}{page}#480"
                 logging.info(f"Fetching from: {paginated_url}")
                 product_urls = self.extract_product_urls(paginated_url)
-                all_product_urls.update(product_urls)  # Add to the set to ensure uniqueness
+                all_product_urls.update(product_urls)  
             logging.info(f"Total unique products collected from {base_url}: {len(all_product_urls)}")
         
         if all_product_urls:
             self.product_collection.delete_many({})
-            self.product_collection.insert_one({"urls": list(all_product_urls)})  # Convert set to list before insertion
+            self.product_collection.insert_one({"urls": list(all_product_urls)})  
             logging.info(f"Inserted {len(all_product_urls)} unique product URLs into the database.")
 
 if __name__ == "__main__":
