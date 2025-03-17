@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 class Parser:
     def __init__(self):
-        self.competitor_name = "Next"
+        self.competitor_name = "next"
         self.extraction_date = datetime.now().strftime("%Y-%m-%d")
         self.base_url = "https://www.next.co.uk/"
 
@@ -89,12 +89,12 @@ class Parser:
             "extraction_date": self.extraction_date,
             "regular_price": regular_price,
             "selling_price": regular_price,
-            "promotion_price": "",  # Not handled yet
-            "promotion_valid_from": "",  # Not handled yet
-            "promotion_valid_upto": "",  # Not handled yet
-            "promotion_type": "",  # Not handled yet
-            "promotion_description": "",  # Not handled yet
-            "currency": "GBP",
+            "promotion_price": "",  
+            "promotion_valid_from": "", 
+            "promotion_valid_upto": "",  
+            "promotion_type": "",  
+            "promotion_description": "",  
+            "currency": "pounds",
             "breadcrumb": breadcrumb,
             "product_description": product_description,
             "instructions": instructions,
@@ -109,7 +109,7 @@ class Parser:
             **product_hierarchy
         }
 
-        # Print the product data on the terminal
+        
         print("\nExtracted Product Data:")
         for key, value in product_data.items():
             print(f"{key}: {value}")
