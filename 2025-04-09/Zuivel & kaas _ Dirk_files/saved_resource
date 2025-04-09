@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head itemscope itemtype="http://schema.org/WebSite">
+<script type="text/javascript"></script>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TJQ95KL');</script>
+	<meta charset="utf-8"/>
+	<!-- (C) 2025 Snakeware New Media B.V. - www.snakeware.nl - info@snakeware.nl -->
+	<title itemprop="name">DekaMarkt | Smakelijk eten, lekker voordelig!</title>
+	<base href="https://extern.dekamarkt.nl/"/>
+	<meta itemprop="url" content="https://extern.dekamarkt.nl/"/>
+	<meta name="generator" content="Snakeware New Media B.V., e-mail: info@snakeware.nl, internet: https://www.snakeware.nl/"/>
+	<meta name="copyright" content="Copyright (C) 2025 Dekamarkt"/>
+	<meta name="description" content="Met vers en ruim assortiment heeft DekaMarkt al het voordeel van de markt! Doe je boodschappen in onze winkels of bekijk ons assortiment gemakkelijk online."/>
+	<meta name="keywords" content="dekadrive, dekadrive.nl, dekadrive nl, DekaMarkt, dekamarkt.nl, dekamarkt nl, deka, deka online, Online boodschappen, Online boodschappen doen, Online boodschappen bestellen, Boodschappen online, Boodschappen doen online, Boodschappen bestellen online, Boodschappen online doen, Boodschappen bestellen online, Boodschappen doen, Boodschappen bestellen, Boodschappen afhalen, Boodschappen doen deka, Boodschappen afhalen deka, Boodschappen bestellen deka, Boodschappen  doen DekaMarkt, Boodschappen afhalen DekaMarkt, Boodschappen bestellen DekaMarkt, Boodschappen doen DekaDrive, Boodschappen afhalen DekaDrive, Boodschappen bestellen DekaDrive"/>
+	<meta name="distribution" content="global"/>
+	<meta name="resource-type" content="document"/>
+	<meta name="verify-v1" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<meta name="theme-color" content="#e00513"/>
+	<meta name="msapplication-navbutton-color" content="#e00513"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="apple-itunes-app" content="app-id=1407674172"/>
+	<meta name="google-play-app" content="app-id=com.nakko.Dekamarkt"/>
+	<meta name="robots" content="noindex,follow"/>
+	<link rel="home" href="https://extern.dekamarkt.nl/" title="Homepage"/>
+	<link rel="contents" href="https://extern.dekamarkt.nl/sitemap.xml" title="Sitemap"/>
+	<link rel="next" href="https://extern.dekamarkt.nl/?page=2"/>
+	<link rel="shortcut icon" href="https://extern.dekamarkt.nl/img/favicons/15.ico"/>
+	<link rel="apple-touch-icon" href="https://extern.dekamarkt.nl/img/favicons/15.png"/>
+	<script type="text/javascript">var sw={}</script>
+	<link rel="stylesheet" href="https://d3r3h30p75xj6a.cloudfront.net/css/294068175/1c03153aadcc7e88479328c6c903c41c.css" type="text/css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700" type="text/css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" type="text/css"/>
+	<script type="text/javascript">var $=(function(c){var b=[];var a=function(d){b.push(d)};a.rdy=function(){for(var d=0;d<b.length;d++){b[d]()}};c.$=a;return a})(sw);</script>
+	<script type="text/javascript">var language=0,browser=0,version=0,steID=15,catID=10749,imgBack=true,rewriting=true,horizontal=true;</script>
+	<script type="text/javascript" src="https://d3r3h30p75xj6a.cloudfront.net/js/294068201/d389c2323e5fc58a38f89deae50630bc.0413.js" async></script>
+	<script type="text/javascript">sw.$(function(){Wizards.init([["Shop","c028b7f6-1be0-46fb-ad1e-66d151dfe816","misc/postWizard.aspx",[["Customers",[["ID",3],["Created",1],["UsrID",3],["SteID",3],["Company",4,[["U heeft geen bedrijfsnaam ingevuld."]]],["Salutation",4,[["Je hebt nog geen aanhef geselecteerd."]]],["Firstname",4,[["Je hebt je voornaam nog niet ingevuld."]]],["Prefix",4],["Lastname",4,[["Je hebt je achternaam nog niet ingevuld."]]],["Name",4],["Email",4,[["Je hebt je e-mailadres nog niet ingevuld."],["Je e-mailadres heeft een niet correct formaat.","isEmail(this)"],["E-mailadres is al in gebruik.","DRG.MyEnvironment.Account.isEmailUnique(this)"]]],["Confirmed",0],["Telephone",4,[["Je hebt je telefoonnummer nog niet ingevuld."],["Je hebt een ongeldig telefoonnummer ingevuld.","DRG.MyEnvironment.Account.isTelephoneValid(this)"]]],["Mobile",4,[["Je hebt een ongeldig mobiel ingevuld.","DRG.MyEnvironment.Account.isTelephoneValid(this)"]]],["Fax",4],["Bankname",4],["BankAccountNo",4],["AccountName",4],["Remarks",4],["InvoiceAdrID",3],["DeliveryAdrID",3],["Initials",4],["GeboorteDatum",1,[["Je hebt nog geen geboortedatum ingevuld. We vragen je geboortedatum om er zeker van te zijn dat we geen alcohol verkopen aan minderjarigen."]]],["InternKlantnummer",7],["ToonAlternatieveProducten",0],["PayID",3,[["U heeft nog geen betaalmethode ingevuld"]]],["BzbID",3],["Voorkeurfiliaal",3],["FilID",3],["Klantnummer",7],["DekaMobielBarcode",4],["Zakelijk",0],["BTWNummer",4],["KVKNummer",4,[["U heeft nog geen KvK nummer ingevuld"]]],["InterneOpmerking",4],["Orderkosten",3],["DeliveryType",3],["NumberOfAdults",3],["NumberOfChildren",3],["NumberOfDogs",3],["NumberOfCats",3],["SecondNewsletter",0],["GiftCard",4],["FixedDeliveryStart",1],["FixedDeliveryEnd",1],["FixedDeliveryDay",3],["Newsletter",0],["IsProfilingAllowed",0],["FixedDeliveryFulfilmentID",3],["FixedDeliveryZoneID",3],["InvoiceEmail",4],["InvoiceAddress",0],["Alternatives",3],["OldPassword",4,[["U heeft nog geen oud wachtwoord ingevuld."]]],["Wachtwoord",4,[["Wachtwoord is niet ingevuld."]]],["HerhaalWachtwoord",4,[["Je wachtwoorden komen niet overeen."],["Je wachtwoorden komen niet overeen.","DRG.MyEnvironment.Account.isPasswordRepeated(this)"]]],["AuthToken",4]],[[null,new Date(2025,3,9,14,17,41),null,15]]]
+,["CustomerDetails",[["CflID",3],["CtmID",3],["Value",4]],[[2],[9],[16],[23],[30],[36],[37],[38],[39],[47],[48],[49],[50],[51],[52],[53],[54],[55],[56],[57],[58],[59],[60],[61],[62],[63],[64],[65],[66],[67],[68]]]
+,["Addresses",[["ID",3],["Created",1],["CtmID",3],["Street",4,[["Straat is een verplicht veld"]]],["Number",4,[["Huisnummer is een verplicht veld"]]],["Addition",4],["ZipCode",4,[["Postcode is een verplicht veld"]]],["City",4,[["Plaats is een verplicht veld"]]],["Country",4],["Invoice",0],["Delivery",0]],[[null,null,null,null,null,null,null,null,null,true,true]]]
+,["Orders",[["ID",3],["Created",1],["ShpID",3],["CtmID",3],["AdrID",3],["SteID",3],["PayID",3,[["Je hebt nog geen betalingsmethode geselecteerd."]]],["OrderNumber",3],["Company",4],["Salutation",4],["Firstname",4],["Prefix",4],["Lastname",4],["Name",4],["Street",4],["Number",4],["Addition",4],["ZipCode",4],["City",4],["Country",4],["Email",4],["Telephone",4],["Mobile",4],["Fax",4],["Bankname",4],["BankAccountNo",4],["AccountName",4],["Remarks",4],["GUID",8],["Paid",0],["Finalized",0],["Sent",0],["Terms",0,[["Je bent nog niet met onze voorwaarden akkoord gegaan.","this"]]],["Shipping",5],["Discount",5],["Initials",4],["OstID",3],["Currency",3],["DeliveryDate",1],["FulfilmentFilID",3],["LeadTime",3],["Modified",1],["ZbtID",3],["AddressSeries",4],["CratesNormal",3],["CratesDeepFreeze",3],["CratesCool",3],["FilID",3,[["U heeft nog geen filiaal gekozen"]]],["PickupDelivery",3],["CommercialContract",4],["StartPickupDate",1],["EndPickupDate",1],["BranchAddress",4],["BranchNumber",4],["BranchCity",4],["BranchZipcode",4],["BranchTelephone",4],["BzbID",3],["InternalCustomerNumber",7],["DiscountCode",4],["StartDeliveryDate",1],["EndDeliveryDate",1],["Loyalty",0],["IsPrinted",0],["OrderPickingInBranch",0],["Formula",4],["OrderDirectly",0],["LockDateTime",4],["GiftCard",4,[["Je hebt een onjuiste code ingevuld.","DRG.webshop.GiftCard.checkValue(this)"]]],["AfterPayOrderNumber",4],["ShoppingListID",8],["OrderOrigin",4],["HasInvoiceAddress",4],["InvoiceCity",4],["InvoiceEmail",4],["InvoiceHouseNumber",4],["InvoiceStreet",4],["InvoiceZipCode",4],["Supplier",3],["OrderSent",3],["CratesBread",3],["Total",5],["SubTotal",5],["GrandTotal",5],["DepositMoney",5],["DispenseLoyalty",0],["Products",9],["DiscountPercentage",6],["KrattenNormaal",3],["KrattenDiepvries",3],["KrattenKoel",3],["FiliaalNummer",4],["FiliaalAdres",4],["FiliaalPostcode",4],["FiliaalPlaats",4],["FiliaalTelefoon",4],["AfhalenBezorgen",3],["Bezorgdatum",1,[["U heeft nog geen bezorgdatum gekozen"]]],["StartAfhaaldatum",1,[["U heeft nog geen afhaaldatum gekozen"]]],["EindAfhaaldatum",1],["InternKlantnummer",7],["KortingsCode",4],["FullFilmentFilID",3],["StartBezorgdatum",1],["EindBezorgdatum",1],["OrderVerzonden",3],["OrderPickingInFiliaal",0],["Formule",4],["RechtstreeksBestellen",0],["HasDelivery",0],["FiliaalB2BAfterPay",0],["FiliaalB2CAfterPay",0],["SaveInProfile",0],["AantalArtikelen",3],["TotalInclDepositAndDelivery",5],["TotalExclDepositAndDelivery",5],["CID",4],["SubtotalIs35",0]],[[null,new Date(2025,3,9,14,17,41),2,null,null,15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,0,null,0,null,0,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,true,"DekaMarkt",false,null,null,null,null,0,0,0,null,false]]]
+,["OrderDetails",[["OflID",3],["OrdID",3],["Value",4]],[[2],[9],[16],[23],[30],[37],[44],[51],[58],[65],[72],[79],[86],[93],[100],[107],[114],[121],[128],[135],[142],[148],[150],[160],[167],[174],[206],[209],[212],[213],[216],[217],[218],[219],[220],[221],[222]]]
+,["OrderLines",[["ID",3],["Created",1],["OrdID",3],["Quantity",9],["ItmID",3],["Code",4],["Name",4],["Data",4],["Tax",6],["Price",5],["Total",5],["ArtID",3],["TotalFromPrice",5],["OriginalWeight",5]]]
+,["OrderLineDetails",[["ID",3],["OlnID",3],["DttID",3],["Desc",4],["Data",4],["CtlID",3],["DataValue",4]]]
+,["VATTotals",[["Percentage",6],["Total",5]]]
+,["OrderDiscounts",[["OrdID",3],["DscID",3],["Description",4],["Amount",5]]]
+,["WizardVersion",[["currentVersion",9],["isPageReload",0]],[[18.0,false]]]
+],false],
+["QuickListWizard","bf1443d7-d212-47eb-8898-86403e8ee7d2","misc/postWizard.aspx",[["QuickListItem",[["Description",4],["Checked",0]]]
+],false],
+["SearchWizard","dabf7679-7c72-45ce-a250-0d8cdbf3bf89","misc/postWizard.aspx",[["Ingredient",[["ID",3],["Description",4],["IsActive",0]]]
+],false]])})</script>
+	<script type="text/javascript">sw.$(function(){Webshop.load()})</script>
+	<script type="text/javascript">sw.$(function(){DRG.currentCseID = 275;
+DRG.webshopState = {"afhaalBezorgmomentUrl":"https:\/\/extern.dekamarkt.nl\/moment","filiaalID":283,"filiaalKeuzeUrl":"https:\/\/extern.dekamarkt.nl\/methode","fullfilmentFiliaalID":283,"inloggenRegistrerenUrl":"https:\/\/extern.dekamarkt.nl\/inloggen-registreren","isLoggedIn":false,"maxBezorgDagen":14,"page":1,"pageSize":48,"previousUrl":null,"subgroepID":null};
+DRG.webshop.isDekaBestel = false;
+DRG.webshop.isDekaDrive = true;
+DRG.webshop.isDekaGebak = false;
+DRG.webshop.isDekaWijn = false;
+DRG.webshop.isDirkWebshop = false;
+DRG.webshop.ApiKey = "6d3a42a3-6d93-4f98-838d-bcc0ab2307fd";
+DRG.webshop.ApiUrl = "https://api.dekamarkt.nl/v1/";
+Number.formatInfo=new NumberFormat(".",", ","€")
+DRG.QuickList.maxEmptyRows = 8;
+Responsive.ImageLoader.init();
+Webshop.format="0.#";Webshop.useAddr=true;
+})</script>
+</head>
+<body style="text-align:left">
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TJQ95KL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<img id="imgBack" src="https://d3r3h30p75xj6a.cloudfront.net/img/default/lightbox.png" style="display:none;" alt=""/>
+	<div class="main">
+<div id="shoppinglist"></div>
+<div id="zipcodeSelect"></div>
+<div id="storeSelect"></div>
+<div id="bestDeal"></div>
+<div class="section" id="topbars">
+	<div class="listWizzardBackground"></div>
+	<header class="header">
+		<div id="ie-message"></div>
+		<div class="container">
+			<div class="row">
+				<div class="header-logo-placeholder col-md-2"></div>
+				<div class="header-nav col-md-4">
+					<a href="winkels" class="first ">Winkels</a>
+					<a href="meer/smaakmakers">Smaakmakers</a>
+					<a class="submenu" onmouseover="DRG.webshop.openInspirationMenu('5793',this)" href="services">Services</a>
+					<div class="menuoverlay" onclick="DRG.webshop.closeMenu()"></div>
+					<div class="webshopMenu wide" data-menu-inspiration="5793" onmouseleave="DRG.webshop.closeMenu('normal',5793)">
+						<div class="mdd-menu ">
+							<div class="container">
+								<div class="row">
+									<div class="menu-column animate afadeIn"></div>
+									<div class="menu-column animate afadeIn"></div>
+									<div class="menu-column animate afadeIn"></div>
+									<div class="menu-column animate afadeIn">
+										<a href="services/cadeaukaart">
+											<span class="mdd-menu-block-link stacker">Cadeaukaart</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a onmouseover="" class="submenu no-mdd-menu" href="meer">Meer</a>
+					<a href="boodschappenlijsten">Boodschappenlijsten</a>
+					<a href="cameratoezicht" class="last ">cameratoezicht</a>
+				</div>
+				<div id="headerOptions">
+					<div class="header-search col-md-2">
+						<input type="text" class="header-search__input" placeholder="Zoeken" />
+						<span class="header-search__button icon">j</span>
+					</div>
+					<div class="header-options col-md-2">
+						<div class="header-options__order">
+							<a class="header-options__order--order" href="/selecteer-bezorgmoment"></a>
+						</div>
+						<div class="header-options__user"></div>
+					</div>
+				</div>
+				<div class="header-logo">
+					<a href="/">
+						<img src="/img/logoDekaMarktNew.svg" width="180" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="toast"></div>
+	</header>
+	<div class="mobile-top-navigation">
+		<div class="container">
+			<div class="header-logo">
+				<a href="/">
+					<img src="/img/logoDekaMarktNew.svg" width="124" />
+				</a>
+			</div>
+			<span class="mobile-top-navigation__menutoggle" onclick="$('.mobile-menu').toggleClass('open'); $(this).toggleClass('open');"></span>
+		</div>
+		<div id="mobile-toast"></div>
+	</div>
+	<div id="mobileBottomNav"></div>
+	<div class="mobile-menu">
+		<span class="icon_40">
+			<a href="winkels" class="first ">Winkels</a>
+		</span>
+		<span class="icon_1">
+			<a href="meer/smaakmakers">Smaakmakers</a>
+		</span>
+		<span class="icon_33">
+			<a class="submenu" onmouseover="DRG.webshop.openInspirationMenu('5793',this)" href="services">Services</a>
+			<div class="menuoverlay" onclick="DRG.webshop.closeMenu()"></div>
+			<div class="webshopMenu wide" data-menu-inspiration="5793" onmouseleave="DRG.webshop.closeMenu('normal',5793)">
+				<div class="mdd-menu ">
+					<div class="container">
+						<div class="row">
+							<div class="menu-column animate afadeIn"></div>
+							<div class="menu-column animate afadeIn"></div>
+							<div class="menu-column animate afadeIn"></div>
+							<div class="menu-column animate afadeIn">
+								<a href="services/cadeaukaart">
+									<span class="mdd-menu-block-link stacker">Cadeaukaart</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</span>
+		<span class="icon_41">
+			<a href="recepten">Recepten</a>
+		</span>
+		<span class="icon_42">
+			<a onmouseover="" class="submenu no-mdd-menu" href="meer">Meer</a>
+		</span>
+		<span class="icon_1">
+			<a href="boodschappenlijsten">Boodschappenlijsten</a>
+		</span>
+		<span class="icon_1">
+			<a href="cameratoezicht" class="last ">cameratoezicht</a>
+		</span>
+		<span class="icon_43">
+			<a href="services/klantenservice">Klantenservice</a>
+		</span>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="section" id="breadcrumb">
+			<div id="cat_275">
+				<div class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<span>
+						<a class="current">Home</a>
+					</span>
+				</div>
+				<script type="text/javascript">
+			$(function(){
+			DRG.customBreadcrumb.initialize(
+			
+			);
+			});
+		</script>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="header-menu--links"></div>
+		<div class="section" id="items">
+			<div class="item">
+				<h2>Welkom bij DekaMarkt</h2>
+				<div class="body">
+					<table width="100%" border="0" cellspacing="0" cellpadding="2">
+						<tr class="control_1">
+							<td class="controlName" valign="top">Titel</td>
+							<td>Welkom bij DekaMarkt</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Titel Kleur</td>
+							<td>#484848</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Titel Type</td>
+							<td>H1</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Verberg Titel</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Subtitel</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Tekst</td>
+							<td> </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="item">
+				<h2>Volop Gratis Weken</h2>
+				<div class="body">
+					<table width="100%" border="0" cellspacing="0" cellpadding="2">
+						<tr class="control_1">
+							<td class="controlName" valign="top">Primaire banner achtergrond kleur</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Primaire banner Titelkleur</td>
+							<td>#ffffff</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Primaire banner Textkleur</td>
+							<td>#ffffff</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Primaire banner Subtitelkleur</td>
+							<td>#ffffff</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner achtergrond kleur 1</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner achtergrond kleur 2</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner achtergrond kleur 3</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner achtergrond kleur 4</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Titel</td>
+							<td>Volop Gratis Weken</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Subtitel</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Analytics ID</td>
+							<td>ANALYTICS-ID-1</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Banner afbeelding desktop</td>
+							<td>
+								<img height="622" width="781" alt="Deka Web banners Week 1_ 1437x815_volopgratisnw" title="Deka Web banners Week 1_ 1437x815_volopgratisnw" src="https://d3r3h30p75xj6a.cloudfront.net/files/5/4/9/3/2/2/Deka%20Web%20banners%20Week%201_%201437x815_volopgratisnw.jpg" />
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Banner afbeelding mobiel</td>
+							<td>
+								<img height="622" width="781" alt="Deka Web banners Week 1_ 781x622_volopgratisnw" title="Deka Web banners Week 1_ 781x622_volopgratisnw" src="https://d3r3h30p75xj6a.cloudfront.net/files/6/4/9/3/2/2/Deka%20Web%20banners%20Week%201_%20781x622_volopgratisnw.jpg" />
+							</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Primaire knop tekst</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Primaire interne link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Primaire externe link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Secondaire knop tekst</td>
+							<td>Bekijk alle acties</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Secondaire interne link</td>
+							<td>
+								<a title="Aanbiedingen" href="aanbiedingen">Aanbiedingen</a>
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Secondaire externe link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 1 afbeelding</td>
+							<td>
+								<img height="375" width="670" alt="Deka Web banners Week 15 670x375nw" title="Deka Web banners Week 15 670x375nw" src="https://d3r3h30p75xj6a.cloudfront.net/files/8/7/1/5/2/2/Deka%20Web%20banners%20Week%2015%20670x375nw.jpg" />
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 1 interne link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 1 externe link</td>
+							<td>
+								<a href="https://www.dekamarkt.nl/aanbiedingen?aanbieding=185271-123138" target="_blank">https://www.dekamarkt.nl/aanbiedingen?aanbieding=185271-123138</a>
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 1 Analytics ID</td>
+							<td>ANALYTICS-ID-KLEINE-BANNER-ijs-week-15</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 2 afbeelding</td>
+							<td>
+								<img height="375" width="670" alt="Deka Web banners Week 15 670x3752" title="Deka Web banners Week 15 670x3752" src="https://d3r3h30p75xj6a.cloudfront.net/files/5/2/1/5/2/2/Deka%20Web%20banners%20Week%2015%20670x3752.jpg" />
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 2 interne link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 2 externe link</td>
+							<td>
+								<a href="https://www.dekamarkt.nl/aanbiedingen?aanbieding=185269-123247" target="_blank">https://www.dekamarkt.nl/aanbiedingen?aanbieding=185269-123247</a>
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 2 Analytics ID</td>
+							<td>ANALYTICS-ID-KLEINE-BANNER-frisdrank-week-15</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 3 afbeelding</td>
+							<td>
+								<img height="375" width="670" alt="Deka Web banners Week 15 670x3753" title="Deka Web banners Week 15 670x3753" src="https://d3r3h30p75xj6a.cloudfront.net/files/6/2/1/5/2/2/Deka%20Web%20banners%20Week%2015%20670x3753.jpg" />
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 3 interne link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 3 externe link</td>
+							<td>
+								<a href="https://www.dekamarkt.nl/aanbiedingen?aanbieding=185268-123146" target="_blank">https://www.dekamarkt.nl/aanbiedingen?aanbieding=185268-123146</a>
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 3 Analytics ID</td>
+							<td>ANALYTICS-ID-KLEINE-BANNER-Coolbest-week-15</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 4 afbeelding</td>
+							<td>
+								<img height="375" width="670" alt="Deka Web banners Week 15 670x3754" title="Deka Web banners Week 15 670x3754" src="https://d3r3h30p75xj6a.cloudfront.net/files/7/2/1/5/2/2/Deka%20Web%20banners%20Week%2015%20670x3754.jpg" />
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 4 interne link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Kleine banner 4 externe link</td>
+							<td>
+								<a href="https://www.dekamarkt.nl/aanbiedingen?aanbieding=185274-123157" target="_blank">https://www.dekamarkt.nl/aanbiedingen?aanbieding=185274-123157</a>
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Kleine banner 4 Analytics ID</td>
+							<td>ANALYTICS-ID-KLEINE-BANNER-Lenor-week-15</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="item">
+				<h2>Nu in de aanbieding</h2>
+				<div class="body">
+					<table width="100%" border="0" cellspacing="0" cellpadding="2">
+						<tr class="control_1">
+							<td class="controlName" valign="top">Banner Id</td>
+							<td>WK15-aanbiedingen-carrousel</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Titel</td>
+							<td>Nu in de aanbieding</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Verstop titel op site</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Achtergrond kleur startvisual (HEX)</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Achtergrond kleur (HEX)</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Swipe modus</td>
+							<td>Per stuk</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 1</td>
+							<td>127947</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 1</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 2</td>
+							<td>127871</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 2</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 3</td>
+							<td>131959</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 3</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 4</td>
+							<td>125996</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 4</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 5</td>
+							<td>127877</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 5</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 6</td>
+							<td>127703</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 6</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 7</td>
+							<td>127696</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 7</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 8</td>
+							<td>126308</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 8</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 9</td>
+							<td>130193</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 9</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Artikelnummer (single) / ImportID (multi) 10</td>
+							<td>127954</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Multi aanbieding? 10</td>
+							<td>waar</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="item">
+				<h2>Paasrecepten</h2>
+				<div class="body">
+					<table width="100%" border="0" cellspacing="0" cellpadding="2">
+						<tr class="control_1">
+							<td class="controlName" valign="top">Titel</td>
+							<td>Paasrecepten</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Subtitel</td>
+							<td>Wij helpen je kiezen!</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Verstop titel op site</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Verstop subtitle op site</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Verstop badges op site</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Swipe modus</td>
+							<td>Per stuk</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Chip 1 Tekst</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Chip 1 Zoekterm</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Chip 1 Link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Chip 2 Tekst</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Chip 2 Zoekterm</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Chip 2 Link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Chip 3 Tekst</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Chip 3 Zoekterm</td>
+							<td> </td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Chip 3 Link</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 1</td>
+							<td>25553</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 1</td>
+							<td>Gekleurde paastulband</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 2</td>
+							<td>25550</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 2</td>
+							<td>Aardbeien-muntcroissant</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 3</td>
+							<td>25554</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 3</td>
+							<td>Passievrucht-kwarktaarttrifle</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 4</td>
+							<td>25557</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 4</td>
+							<td>Japanse zoete omelet</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 5</td>
+							<td>25555</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 5</td>
+							<td>Paasslof met soesjes</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 6</td>
+							<td>25551</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 6</td>
+							<td>Pistachecroissant</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 7</td>
+							<td>25558</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 7</td>
+							<td>Carpaccio style biefstuk</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 8</td>
+							<td>7365</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 8</td>
+							<td>Mangotaartjes met kokosroom</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 9</td>
+							<td>25552</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 9</td>
+							<td>Chocoladepretzelcroissant</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Recept ID 10</td>
+							<td>25559</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Recept Naam 10</td>
+							<td>Gamba’s Pil Pil</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="item">
+				<h2>Folder en magazine week 15</h2>
+				<div class="body">
+					<table width="100%" border="0" cellspacing="0" cellpadding="2">
+						<tr class="control_1">
+							<td class="controlName" valign="top">Titel</td>
+							<td>Folder en magazine week 15</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Verstop titel op site</td>
+							<td>waar</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Toon als carousel op mobiel</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Afbeelding Banner 1 (breedte 702px)</td>
+							<td>
+								<img height="465" width="465" alt="Deka Web banners Week 15 465x465nw" title="Deka Web banners Week 15 465x465nw" src="https://d3r3h30p75xj6a.cloudfront.net/files/6/7/1/5/2/2/Deka%20Web%20banners%20Week%2015%20465x465nw.jpg" />
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Afbeelding Mobile Banner 1 (breedte 375px)</td>
+							<td>
+								<img height="465" width="465" alt="Deka Web banners Week 15 465x465nw" title="Deka Web banners Week 15 465x465nw" src="https://d3r3h30p75xj6a.cloudfront.net/files/6/7/1/5/2/2/Deka%20Web%20banners%20Week%2015%20465x465nw.jpg" />
+							</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Tekst Banner 1</td>
+							<td>Folder geldig van di 8 t/m ma 14 april 2025</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Tekst kleur banner 1</td>
+							<td>#484848</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Achtergrond kleur banner 1</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">CTA Button tekst 1</td>
+							<td>Lees folder</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Interne Link Banner 1</td>
+							<td>
+								<a title="Folder" href="meer/folder">Folder</a>
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Externe Link Banner 1</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">CTA Button Background Color 1</td>
+							<td>#87BE34</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">CTA Button Text Color 1</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Analytics ID Banner 1</td>
+							<td>ANALYTICS-BANNER-FOLDER-15</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Afbeelding Banner 2 (breedte 702px)</td>
+							<td>
+								<img height="465" width="465" alt="Deka Web banners Week 14_465x4652" title="Deka Web banners Week 14_465x4652" src="https://d3r3h30p75xj6a.cloudfront.net/files/8/3/0/5/2/2/Deka%20Web%20banners%20Week%2014_465x4652.jpg" />
+							</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Afbeelding Mobile Banner 2 (breedte 375px)</td>
+							<td>
+								<img height="465" width="465" alt="Deka Web banners Week 14_465x4652" title="Deka Web banners Week 14_465x4652" src="https://d3r3h30p75xj6a.cloudfront.net/files/8/3/0/5/2/2/Deka%20Web%20banners%20Week%2014_465x4652.jpg" />
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Tekst Banner 2</td>
+							<td>Paasspecial, Pasen maak je samen</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Tekst kleur banner 2</td>
+							<td>#484848</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Achtergrond kleur banner 2</td>
+							<td>#FFFFFF</td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">CTA Button tekst 2</td>
+							<td>Lees magazine</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Interne Link Banner 2</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">Externe Link Banner 2</td>
+							<td>
+								<a href="https://www.dekamarkt.nl/meer/magazines" target="_blank">https://www.dekamarkt.nl/meer/magazines</a>
+							</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">CTA Button Text Color 2</td>
+							<td> </td>
+						</tr>
+						<tr class="control_0">
+							<td class="controlName" valign="top">CTA Button Background Color 2</td>
+							<td>#87BE34</td>
+						</tr>
+						<tr class="control_1">
+							<td class="controlName" valign="top">Analytics ID Banner 2</td>
+							<td>ANALYTICS-BANNER-MAGAZINE-15</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="paging">
+				<a href="javascript:;" class="first disabled"></a>
+				<a href="https://extern.dekamarkt.nl/?page=1" class="current">1</a>
+				<a href="https://extern.dekamarkt.nl/?page=2">2</a>
+				<a class="last" href="https://extern.dekamarkt.nl/?page=2"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section" id="recalls">
+	<div class="container">
+		<div class="row"></div>
+	</div>
+</div>
+<div class="section" id="footer">
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="block">
+					<div class="blockcenter">
+						<div class="title" id="footerBlockTitle_2997">Snel naar</div>
+						<div class="blockcontent" id="footerBlockContent_2997">
+							<a href="https://www.dekamarkt.nl/meer/folder" id="footerLinks" class="first " target="_blank" title="https://www.dekamarkt.nl/meer/folder">
+								<img alt="" class="link" src="https://d3r3h30p75xj6a.cloudfront.net/img/default/pixTrans.gif" />Folder</a>
+							<a href="meer/magazines" id="footerLinks">Magazine</a>
+							<a href="https://www.dekagebak.nl/" id="footerLinks" target="_blank" title="https://www.dekagebak.nl/">
+								<img alt="" class="link" src="https://d3r3h30p75xj6a.cloudfront.net/img/default/pixTrans.gif" />Gebak bestellen</a>
+							<a href="duurzaamheid" id="footerLinks" class="last ">Duurzaamheid</a>
+						</div>
+						<script type="text/javascript">$(function(){DRG.createFooterToggle(2997)})</script>
+					</div>
+				</div>
+				<div class="block">
+					<div class="blockcenter">
+						<div class="title" id="footerBlockTitle_3000">Services</div>
+						<div class="blockcontent" id="footerBlockContent_3000">
+							<a href="services/klantenservice" id="footerLinks" class="first ">Klantenservice</a>
+							<a href="primera" id="footerLinks">Primera</a>
+							<a href="services/dekamarkt-app" id="footerLinks">DekaMarkt App</a>
+							<a href="archief" id="footerLinks" class="last ">Terugroepactie</a>
+						</div>
+						<script type="text/javascript">$(function(){DRG.createFooterToggle(3000)})</script>
+					</div>
+				</div>
+				<div class="block">
+					<div class="blockcenter">
+						<div class="title" id="footerBlockTitle_2999">DekaMarkt</div>
+						<div class="blockcontent" id="footerBlockContent_2999">
+							<a href="smakelijk-eten" id="footerLinks" class="first ">Smakelijk eten!</a>
+							<a href="meer/over-ons" id="footerLinks">Over DekaMarkt</a>
+							<a href="https://www.werkenbijdekamarkt.nl" id="footerLinks" target="_blank" title="https://www.werkenbijdekamarkt.nl">
+								<img alt="" class="link" src="https://d3r3h30p75xj6a.cloudfront.net/img/default/pixTrans.gif" />Werken bij DekaMarkt</a>
+							<a href="https://www.dekamarkt.nl/mijn-dekamarkt" id="footerLinks" class="last " target="_blank" title="https://www.dekamarkt.nl/mijn-dekamarkt">
+								<img alt="" class="link" src="https://d3r3h30p75xj6a.cloudfront.net/img/default/pixTrans.gif" />Mijn DekaMarkt</a>
+						</div>
+						<script type="text/javascript">$(function(){DRG.createFooterToggle(2999)})</script>
+					</div>
+				</div>
+				<div class="block">
+					<div class="blockcenter newsletter-wrapper">
+						<h3 class="title open" id="footerBlockTitle_newsletter">Nieuwsbrief</h3>
+						<div class="blockcontent open" id="footerBlockContent_newsletter">
+							<div class="newsletter">
+								<div id="frmNewsLetter" name="frmNewsLetter">
+									<div data-newsletter-controls="">
+										<input type="text" id="nieuwsbrief" data-newsletter="" placeholder="Vul hier je emailadres in" />
+										<button type="submit" class="button" value="" data-title="inschrijving_fastlane" onclick="DRG.showNieuwsbriefPopup()"></button>
+									</div>
+									<div class="thankyou" data-newsletter-message="" style="display:none;">Bedankt voor je inschrijving.</div>
+								</div>
+							</div>
+						</div>
+						<div class="keurmerken"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+          var popupData = {
+            title: ``,
+            body: ``,
+          }
+        </script>
+	</div>
+</div>
+<div class="upBtn" onclick="DRG.Viewport.scrollTo($('#topbars'))" style="display:none;"></div>
+<div id="popup"></div>
+<div class="popup">
+	<div class="popup-background" onclick="$('.popup').fadeOut()"></div>
+	<div class="popup-inner">
+		<div class="popup-inner--text">
+			<span class="popup-inner--text__title"></span>
+			<span class="popup-inner--text__description"></span>
+		</div>
+		<div class="popup-inner--inputs">
+			<div class="checkbox">
+				<input type="checkbox" name="customerOptin" id="customerOptin" class="checkbox" />
+				<label class="checkbox normal block" for="customerOptin"> <b> Nieuwsbrief </b> Je ontvangt de nieuwsbrief met de aanbiedingen uit de folder, recepten, acties en nieuws in je mailbox.</label>
+			</div>
+			<div class="checkbox">
+				<input type="checkbox" name="customerPersonal" id="customerPersonal" class="checkbox" />
+				<label class="checkbox normal block" for="customerPersonal"> <b> Acties en informatie  </b>  Relevante informatie en persoonlijke aanbevelingen op basis van je voorkeuren en gegevens uit je profiel</label>
+			</div>
+		</div>
+		<div class="popup-inner--nav">
+			<button onclick="DRG.postNieuwsbrief()" class="popup-inner--nav__timeslots normal-button"></button>
+		</div>
+		<span onclick="$('.popup').fadeOut()" class="popup-inner--close"></span>
+	</div>
+</div>
+<div id="background" class="popupbackground">
+	<span class="nav">
+		<span class="close"></span>
+	</span>
+</div>
+<div class="video-popup" data-video-popup="">
+	<iframe class="youtube" data-video-iframe="" src="" frameborder="0" allowfullscreen="1"></iframe>
+</div>
+<div id="loader">
+	<div class="white-background"></div>
+	<div class="sk-folding-cube">
+		<div class="sk-cube1 sk-cube"></div>
+		<div class="sk-cube2 sk-cube"></div>
+		<div class="sk-cube4 sk-cube"></div>
+		<div class="sk-cube3 sk-cube"></div>
+	</div>
+</div>
+<div id="cSpace" class="cookieSpacer"></div>
+<div id="cWarn" class="cookie">
+	<div class="cookie__background"></div>
+	<div class="cookie--message">
+		<div class="cookie--message__image">
+			<img src="https://d3r3h30p75xj6a.cloudfront.net/artikelen/29483_1_403833_637242489212875819.png?width=500&amp;height=200&amp;mode=crop" alt="cookie melding" />
+		</div>
+		<div class="cookie--message__title">Cookies en DekaMarkt.nl</div>
+		<div class="cookie--message__text">
+			<p>Om je een optimale ervaring te bieden, gebruiken we cookies. We plaatsen functionele cookies om de site goed te laten werken, en analytische cookies om de site continu te verbeteren.</p>
+			<p>Ook plaatsen we tracking cookies zodat wij en derde partijen jouw internetgedrag kunnen volgen en persoonlijke content kunnen tonen.  Indien je kiest voor <a onclick="DRG.webshop.cookie('cookies_decline')">weigeren</a>, plaatsen wij alleen functionele en analytische cookies. Bekijk ons <a onclick="DRG.webshop.cookie('cookies_more_info', 'ons-cookiebeleid')">cookiebeleid</a> voor meer informatie.</p>
+		</div>
+		<div class="cookie--message--buttons">
+			<button onclick="DRG.webshop.cookie('cookies_accept')">Accepteren</button>
+		</div>
+	</div>
+</div>	</div>
+</body>
+</html>
+<!--
+	Total Time: 0:00:00.299
+	Total database access: 0:00:00.033
+	Main Xsl transformation: 0:00:00.015
+	code: 0:00:00.251
+-->
+<!--
+	Machine name: EC2AMAZ-7U12MKI
+-->
