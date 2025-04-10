@@ -3,12 +3,11 @@ import re
 import os
 from pymongo import MongoClient
 
-# MongoDB setup
+
 client = MongoClient("mongodb://localhost:27017/")
 db = client["dirk"]
-collection = db["product_data"]
+collection = db["products"]
 
-# List of HTML file paths
 file_paths = [
     "/home/anoop/frt/2025-04-10/biologisch-zuivel-kaas.html",
     "/home/anoop/frt/2025-04-10/eieren.html",
@@ -51,7 +50,11 @@ for file_path in file_paths:
                 "url": prod.get("url", ""),
                 "source_file": os.path.basename(file_path)
             }
-            collection.insert_one(doc)
+            collection.update_one(
+                {"sku": doc["sku"]},
+                {"$set": doc},
+                upsert=True
+            )
 
     except Exception as e:
         print(f"Error parsing {file_path}: {e}")
